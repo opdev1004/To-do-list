@@ -1,0 +1,22 @@
+{
+  "name": "uniherokuproject",
+  "version": "1.0.0",
+  "description": "A Node.js app with Express.js and Heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Chanil Park",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "pg": "^7.4.3"
+  }
+}
